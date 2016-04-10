@@ -1,5 +1,6 @@
 jQuery(document).ready(function($){
-    $('.drawer-toggle').on('click',function(e){
-        $(this).parent().toggleClass('active');
+    $('.popup-toggle').on('click',function(e){
+        $('.popup').toggleClass('active');
+        $('.toggle-open').toggleClass('hidden');
     })
 });
